@@ -1,0 +1,20 @@
+// Objectif 
+
+  - afficher une liste de mammifères 
+  - pouvoir créer un mammifère (ajouter à la liste et l'afficher)
+  - supprimer un mammifère de la liste 
+  - modifier un mammifère préalablement ajouter 
+
+// Étapes 
+
+  1. Définir ce qu'est un mammifère et ce que l'on veut représenter 
+  2. Afficher ce qu'est un mammifère (mise en forme de l'affichage d'un mammifère)
+  3. Afficher 5 mammifères 
+  4. Mettre en place la fonctionnalité de création du mammifère 
+  5. Mettre en place la fonctionnalité d'édition 
+  6. Mettre en place la fonctionnalité de suppression 
+
+  1) 
+    Nom (ornithorynque)
+    Ordre (monotrème)
+    Image 
