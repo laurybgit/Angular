@@ -16,15 +16,21 @@ h1{
 
 section{
   display: flex; 
+  flex-wrap: wrap; 
 }
 
 article{
   border: 1px solid black; 
-  padding: 1rem; 
+  padding: 0.5rem 1rem; 
   margin : 1rem; 
 }
 
 figure{
   margin: 0; 
+}
+
+h3+p{
+  background-color: rgb(212, 201, 46); 
+  padding: 0.2rem; 
 }
 
