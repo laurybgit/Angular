@@ -34,3 +34,7 @@ h3+p{
   padding: 0.2rem; 
 }
 
+section+section{
+  display: block; 
+}
+

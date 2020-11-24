@@ -6,13 +6,16 @@
   <title>PocketMammifère</title>
   <link rel="stylesheet" href="../src/css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+  <script></script> 
 </head>
 <body>
+  <!-- Intro -->
   <h1>Pocketmammifère <br> les mammifères en folie</h1>
 
   <h2>Gérer les pocketmammifères</h2>
 
+  <!-- Section avec les différents mammifères -->
   <section>
     <article>
       <h3>Mon pocket mammifère</h3>
@@ -54,6 +57,26 @@
       <p>Ordre : Monotrème</p>
     </article>
 
+  </section>
+
+  <!-- Formulaire d'ajout des mammifères -->
+  <section>
+    <h2>Ajouter un mammifère ? </h2>
+    <form action="" id="form">
+        <label for="name">Donnez un nom à votre mammifère : </label>
+        <input type="text" name="name" id="name" required> <br>
+
+        <label for="ordre">Quel est son ordre ? </label>
+        <input type="text" name="ordre" required> <br>
+
+        <label for="scient">Quel est son nom scientifique ? </label>
+        <input type="text" name="scient" required> <br>
+
+        <label for="link">Lien de la photo du mammifère :</label>
+        <input type="text" name="link" required> <br>
+
+        <input type="submit" value="Envoyer le mammifère">
+    </form>
   </section>
 </body>
 </html>
